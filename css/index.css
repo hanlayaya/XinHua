@@ -1,0 +1,182 @@
+.content{
+	width: 1000px!important;
+}
+.centerToolbar{
+	width: 100%;
+	min-width: 1150px;
+	height: 44px;
+	background: #6492c0;
+	margin: 18px auto;
+}
+.centerToolbar ul li a{
+	float: left;
+	width: 12%;
+	line-height: 44px;
+	text-align: center;
+}
+.centerToolbar ul li a:hover{
+	color: #000000!important;
+}
+.dongtai,
+.xinhua{
+	display: inline-block;
+    width: 35%;
+    margin-left:20px;
+    margin-bottom: 20px;
+    height: 270px;
+}
+.xinhua{
+	display: inline-block;
+	overflow: hidden;
+	height: 300px;
+}
+.dongtaiTitle,
+.xinhuaTitle,
+.zhanshiTitle,
+.pinpaiTitle,
+.tapanTitle,
+.zixunTitle{
+	background: url(../images/titleLine.png) no-repeat left bottom;
+	height: 50px!important;
+}
+.dongtaiTitle,
+.xinhuaTitle{
+	line-height: 40px;
+}
+.dongtaiTitle a,
+.zhanshiTitle a,
+.xinhuaTitle a,
+.pinpaiTitle a,
+.tapanTitle a,
+.zixunTitle a{
+	color: #000000!important;
+	font-size: 22px;
+}
+.dongtaiTitle a p,
+.zhanshiTitle a p,
+.xinhuaTitle a p,
+.pinpaiTitle a p{
+	color: #000000;
+}
+.dongtaiTitle span,
+.zhanshiTitle span,
+.pinpaiTitle span,
+.xinhuaTitle span,
+.tapanTitle span,
+.zixunTitle span{
+    font-family: '微软雅黑';
+    color: #9b9b9b!important;
+    /*padding:2px 5px;*/
+}
+.dongtaiTitle1 a{
+	color: #000000;
+}
+.dongtaiTitle1 h4{
+	margin: 5px auto;
+}
+.dongtaiTitle1 p{
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+.zhanshiTitle{
+	background: url(../images/titleLine1.png) no-repeat center bottom;
+	height: 40px;
+}
+.pinpaiTitle,
+.tapanTitle,
+.zixunTitle{
+	background: url(../images/titleLine1.png) no-repeat left bottom;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.zhanshiContent{
+	width: 100%;
+	height: 460px;
+}
+.zhanshiContent > div{
+	width: 24.5%;
+	height: 210px;
+	margin: 10px auto;
+	display: inline-block;
+	text-align: center;
+}
+.zhanshiContent a{
+	font-size: 12px;
+	line-height: 30px;
+	color: #000000;
+}
+.zhanshiContent a span{
+	color: red;
+}
+.xinhua{
+	margin-left: 0;
+}
+.tapan{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+.xinhuaContent{
+	width: 100%;
+	height: 130px;
+}
+.xinhuaContent a{
+	color: #000000;
+}
+.xinhuaContent h4{
+	margin: 10px auto;
+}
+.xinhuaContent img{
+	float: left;
+}
+.xinhuaContent p{
+	margin-left: 10px;
+	width: 50%;
+	display: inline-block;
+	color: #666666;
+	font-size: 12px;
+}
+.bannerPinpai{
+	width: 45%;
+	display: inline-block;
+	height: auto;
+
+}
+.bannerPinpai p{
+	width: 100%!important;
+}
+.xhpp{
+	width: 100%;
+	height: auto;
+	background: pink;
+}
+.tapanBox{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.tapan,
+.zixun{
+	display: inline-block;
+	width: 47.5%;
+	height: 260px;
+	/*background: pink;*/
+	float: left!important;
+	margin:0 10px;
+}
+.zixunContent ul{
+	margin: 20px 0px 0px 20px;
+}
+.zixunContent li{
+	list-style-type: square;
+	line-height: 26px;
+	color: #666666!important;
+}
+.zixunContent a{
+	/*background: cyan;*/
+	color: #666666!important;
+	font-size: 14px;
+}
+.tapanContent a img{
+	width: 30%;
+	margin: 10px 10px 0px 0px;
+}

@@ -1,0 +1,383 @@
+﻿*{
+    padding:0;
+    margin:0;    font-family: '微软雅黑'; 
+}
+a{    font-family: '微软雅黑';
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{    font-family: '微软雅黑';
+    color: #4d90e8 !important;
+}
+.content{
+    width:960px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+.jilinTop div p{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align:top;
+    width: 200px;
+    line-height: 26px;
+    height:75px;
+    font-size: 14px;
+}
+.pindao{
+    background: url("../images/dh.jpg") no-repeat;
+    padding-left: 250px;
+}
+.pindao a:hover{
+    color: #ffffff !important;
+}
+.pindao ul{
+    overflow: hidden;
+    height: 60px;
+}
+.pindao ul li{
+    font-size: 14px;
+    float: left;
+    color: #fff;
+}
+.pindao ul li:nth-child(2){
+    margin-left: 105px;
+}
+.pindao ul li:nth-child(3){
+    margin-left: 136px;
+}
+.pindao ul li div{
+    margin:7px 0;
+}
+.pindao ul li span{
+    margin:0 3px;
+    display:inline-block;
+}
+.caijingTitle{
+    border-bottom: 1px solid #2873bf;
+}
+.caijing{
+    display: inline-block;
+    max-width: 37%;
+}
+.caijingTitle span{
+    font-family: '微软雅黑';
+    background: #2873bf;
+    color: #fff;
+    padding:2px 5px;
+}
+.caijingTop a{
+    color: #000;
+}
+.caijingTop h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    margin:10px 0;
+}
+.caijingTop h3 a,.caijingTop p a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0052a5;
+}
+.caijingTop p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+    font-size:12px;
+}
+.caijingTop ul{
+    padding-left:20px;
+    font-size: 14px;
+    list-style: disc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.caijingTop ul li{
+    margin:5px 0;
+}
+.jilin a{
+    color: #333;
+}
+.jilin ul{
+    overflow: hidden;
+}
+.jilin>ul>li{
+    float: left;
+    max-width:35%;
+}
+.jilin>ul>li:first-child{
+    margin-right: 55px;
+}
+.jilin>ul>li:last-child{
+    float: right;
+    max-width:22%;
+    margin-right: 0;
+}
+.jijingTitle{
+    border-bottom: 1px solid #2873bf;
+}
+.jijingTitle span{
+    background: #2873bf;
+    color: #fff;
+    font-family: '微软雅黑';
+    padding:2px 5px;
+}
+.jilinTop ul li{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin:7px 0;
+}
+.bank a{
+    color: #333;
+}
+.bank{
+    overflow: hidden;
+}
+.bank ul li{
+    float: left;
+    box-sizing: border-box;
+    width:37%;
+}
+.bank ul li:first-child{
+    padding-right: 40px;
+}
+.bank ul li:nth-child(2){
+    padding:0 20px;
+}
+.bank ul li:last-child{
+    width:26%;
+    padding-left:40px;
+}
+.bankTitle{
+    border-bottom:1px solid #2873bf;
+    font-family: '微软雅黑';
+}
+.bankTitle span{
+    color: #0052a5;
+    border-bottom:2px solid #0052a5;
+}
+.bankTtop{
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 10px;
+}
+.bankTtop h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin:5px 0;
+    font-size: 15px;
+}
+.bankTtop p{
+    font-size: 14px;
+    line-height:20px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	height:40px;
+}
+.licai h4 a{
+    color: #0052a5;
+}
+.licai a{
+    color: #333;
+    font-family:'微软雅黑';
+}
+.licai ul{
+    overflow: hidden;
+}
+.licai ul li{
+    float: left;
+    width:30%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.licai ul li:first-child div{
+    border:1px solid #b0cae3;
+    padding:10px 5px;
+}
+.licai ul li:first-child>div h4{
+    color: #1e4f9c;
+    margin:10px 0;
+}
+.licai ul li:first-child div p{
+    line-height: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.licai ul li:nth-child(2){
+    padding:0 10px;
+    box-sizing: border-box;
+    width:40%;
+}
+.licai ul li:nth-child(2)>div{
+    border:1px solid #b0cae3;
+    padding:10px 15px;
+}
+.licai ul li:nth-child(2)>div h4{
+    color: #1e4f9c;
+    margin:10px 0;
+}
+.licai ul li:nth-child(2) ul{
+    list-style: disc;
+    margin-left: 10px;
+}
+.licai ul li:nth-child(2) ul li{
+    line-height: 24px;
+    float:none;
+    width:100%;
+    font-size: 14px;
+    padding:0;
+}
+.licai p,.licai li{
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.licai ul li:nth-child(3)>div{
+    border:1px solid #e9e9e9;
+    padding:10px 15px;
+}
+.licai ul li:nth-child(3)>div ul li{
+    width:100%;
+    float: none;
+    padding:0;
+}
+.licai ul li:nth-child(3)>div h4{
+    color: #1e4f9c;
+    margin: 10px 0;
+}
+.licai ul li:nth-child(3)>div span{
+    width:100%;
+    font-size:26px;
+    padding:5px 0;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background: #57bff6;
+}
+.kazu a{
+    color: #333;
+    font-family: '微软雅黑';
+}
+.kazu h4{
+    color: #1e4f9c;
+    margin: 10px 0;
+}
+.kazu h4 a{
+    color:#0052a5;
+}
+.kazu ul li{
+    float: left;
+    width:25%;
+    box-sizing:border-box;
+    padding:0 5px;
+}
+.kazu ul li h6{
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    color: #999;
+    margin:7px 0;
+}
+.kazu ul li h6 a{
+    color: #666;
+}
+.kazu ul li p{
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    line-height: 20px;
+}
+.kazu div:nth-child(2) ul li{
+    line-height: 24px;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+    float: none;
+    width:100%;
+    font-size: 14px;
+}
+.mingxing{
+    border: 1px solid #b0cae3;
+}
+.mingxing a{
+    color: #000;
+}
+.mingxing ul{
+    margin:15px 0;
+    overflow: hidden;
+}
+.mingxing ul li{
+    text-align: center;
+    float: left;
+    width:20%;
+}
+.mingxing ul li p{
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.youqing a{
+    color: #000;
+}
+.youqing ul{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.youqing ul li{
+    float: left;
+    width:14%;
+    text-align: center;
+}
+.hezuo{
+    border: 1px solid #b0cae3;
+}
+.hezuo ul{
+    overflow: hidden;
+}
+.hezuo ul li{
+    text-align: center;
+    float: left;
+    width:16.6%;
+}
+
+
+/*尾部*/
+
+.bom{ width:100%;min-width:1150px; margin:0 auto; height:287px; background-color:#3592d5; overflow:hidden; margin-top:40px}
+.bom_a{ width:1035px; height:240px;overflow:hidden;  margin:auto; margin-top:40px;overflow:hidden;}
+.bom_aa{ width:755px; height:230px; float:left; margin-top:30px}
+.bom_a1{ width:755px; height:35px; float:left ;font-family:"微软雅黑"; font-size:14px; color:#ffffff; text-decoration:none; line-height:40px; text-align:center}
+
+.bom_a1 a{ font-family:"微软雅黑"; font-size:14px; color:#fff; text-decoration:none}
+.bom_a1 a:hover{ font-family:"微软雅黑"; color:#fff; text-decoration:none}
+
+.bom_b1{ width:730px; height:6px; background-image: url(lb_r15_c6.jpg); float:left}
+.bom_c1{ width:755px; height:110px; float:left ;font-family:"微软雅黑"; font-size:14px; color:#FFFFFF; text-decoration:none; line-height:40px; text-align:center}
+
+.bom_a2{ width:5px; height:227px; float:left; background: url(lb_r13_c14.jpg); margin-left:20px }
+.bom_a3{ width:239px; height:227px; float:left; margin-left:10px }
+.bom_a3_a{ width:239px; height:74px; float:left;}
+.bom_a3_b{ width:232px; height:140px; float:right;}
+.bom_a3_ba{ width:105px; height:132px; float:left;}
+.bom_a3_ba p{ width:105px; height:30px; float:left;font-family:"微软雅黑"; font-size:14px; color:#fff; text-decoration:none; line-height:40px; text-align:center}
+
+.bom_a3_bc{  margin-left:19px;width:101px; height:132px; float:left;}
+.bom_a3_bc p{ width:101px; height:30px; float:left;font-family:"微软雅黑"; font-size:14px; color:#fff; text-decoration:none; line-height:40px; text-align:center}
